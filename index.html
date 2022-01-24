@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru" class="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <title>Apartments</title>
+</head>
+<body class="body">
+<main class="page">
+    <section class="apartments">
+        <h1 class="apartments__title">Номера и цены</h1>
+        <ul class="apartments__cards">
+            <li class="apartments__card card">
+                <div class="card__description">
+                    <a class="card__title" href="#">
+                        <h2 class="card__title-text">
+                            Представительский люкс
+                        </h2>
+                    </a>
+                    <span class="card__text">
+                            Эксклюзивный номер с панорамным видом на центр города Москвы
+                        </span>
+                </div>
+                <div class="card__footer ">
+                    <div class="card__price-button-container">
+                        <div class="card__price price">
+                            <span class="price__text-first-row">Цена за сутки</span>
+                            <div class="price__second-row">
+                                <span class="price__text-second-row">от</span>
+                                <span class="price__amount">7 900</span>
+                                <span class="price__unit">₽</span>
+                            </div>
+                        </div>
+                        <button class="card__button">Забронировать</button>
+                    </div>
+                    <div class="card__reserved-container reserved-container">
+                        <span class="reserved-container__first-row">Номер зарезервирован</span>
+                        <div class="reserved-container__second-row">
+                            <span class="reserved-container__text">Перейти к</span>
+                            <a href="#" class="reserved-container__link">оплате</a>
+                        </div>
+                    </div>
+                </div>
+                <picture class="card__image">
+                    <source srcset="images/content/01_large.jpg" media="(min-width: 1280px)">
+                    <source srcset="images/content/01_medium.jpg" media="(min-width: 768px)">
+                    <img class="card__apartment-image image" src="images/content/01_small.jpg"
+                         alt="двухспальная кровать, журнальный столик, прикроватная лампа" width="288" height="347">
+                </picture>
+            </li>
+            <li class="apartments__card card card_is-best-price">
+                <div class="card__best-price sticker ">
+                    <span class="sticker__body">Гарантия лучшей цены!</span>
+                </div>
+                <div class="card__description">
+                    <a class="card__title" href="#">
+                        <h2 class="card__title-text">
+                            Дуплекс
+                        </h2>
+                    </a>
+                    <span class="card__text">
+                            Просторный двухкомнатный номер с шикарным видом на парк
+                        </span>
+                </div>
+                <div class="card__footer ">
+                    <div class="card__price-button-container">
+                        <div class="card__price price">
+                            <span class="price__text-first-row">Цена за сутки</span>
+                            <div class="price__second-row">
+                                <span class="price__text-second-row">от</span>
+                                <span class="price__amount">5 700</span>
+                                <span class="price__unit">₽</span>
+                            </div>
+                        </div>
+                        <button class="card__button">Забронировать</button>
+                    </div>
+                    <div class="card__reserved-container reserved-container">
+                        <span class="reserved-container__first-row">Номер зарезервирован</span>
+                        <div class="reserved-container__second-row">
+                            <span class="reserved-container__text">Перейти к</span>
+                            <a href="#" class="reserved-container__link">оплате</a>
+                        </div>
+                    </div>
+                </div>
+                <picture class="card__image">
+                    <source srcset="images/content/02_large.jpg" media="(min-width: 1280px)">
+                    <source srcset="images/content/02_medium.jpg" media="(min-width: 768px)">
+                    <img class="card__apartment-image image" src="images/content/02_small.jpg"
+                         alt="двухспальная кровать, туалетный столик, прикроватная лампа" width="288" height="347">
+                </picture>
+            </li>
+            <li class="apartments__card card">
+                <div class="card__description">
+                    <a class="card__title" href="#">
+                        <h2 class="card__title-text">
+                            Бизнес-люкс
+                        </h2>
+                    </a>
+                    <span class="card__text">
+                            Трёхкомнатный номер с панорамным видом на Москва&#8209;реку
+                        </span>
+                </div>
+                <div class="card__footer ">
+                    <div class="card__price-button-container">
+                        <div class="card__price price">
+                            <span class="price__text-first-row">Цена за сутки</span>
+                            <div class="price__second-row">
+                                <span class="price__text-second-row">от</span>
+                                <span class="price__amount">4 900</span>
+                                <span class="price__unit">₽</span>
+                            </div>
+                        </div>
+                        <button class="card__button">Забронировать</button>
+                    </div>
+                    <div class="card__reserved-container reserved-container">
+                        <span class="reserved-container__first-row">Номер зарезервирован</span>
+                        <div class="reserved-container__second-row">
+                            <span class="reserved-container__text">Перейти к</span>
+                            <a href="#" class="reserved-container__link">оплате</a>
+                        </div>
+                    </div>
+                </div>
+                <picture class="card__image">
+                    <source srcset="images/content/03_large.jpg" media="(min-width: 1280px)">
+                    <source srcset="images/content/03_medium.jpg" media="(min-width: 768px)">
+                    <img class="card__apartment-image image" src="images/content/03_small.jpg"
+                         alt="двухспальная кровать" width="288" height="347">
+                </picture>
+            </li>
+        </ul>
+    </section>
+</main>
+<script src="scripts/script.js"></script>
+</body>
+</html>
